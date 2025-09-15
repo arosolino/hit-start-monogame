@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "windowsdx", "..\monogame\MonoGame-v3.8.5-develop.11\native\monogame\windowsdx.vcxproj", "{CC33DB03-389E-8F7A-81DC-4020ED856DCF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonoGame.Framework.Native", "..\monogame\MonoGame-v3.8.5-develop.11\MonoGame.Framework\MonoGame.Framework.Native.csproj", "{AFE04195-464C-B0E0-F435-4D8B91BCE66A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "windowsdx12-multiple-rts", "windowsdx12-multiple-rts\windowsdx12-multiple-rts.csproj", "{52F2F233-B853-A8A8-768F-FE3455CE10CE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AFE04195-464C-B0E0-F435-4D8B91BCE66A} = {AFE04195-464C-B0E0-F435-4D8B91BCE66A}
+		{CC33DB03-389E-8F7A-81DC-4020ED856DCF} = {CC33DB03-389E-8F7A-81DC-4020ED856DCF}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC33DB03-389E-8F7A-81DC-4020ED856DCF}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{CC33DB03-389E-8F7A-81DC-4020ED856DCF}.Debug|Any CPU.Build.0 = Debug|x64
+		{CC33DB03-389E-8F7A-81DC-4020ED856DCF}.Debug|x64.ActiveCfg = Debug|x64
+		{CC33DB03-389E-8F7A-81DC-4020ED856DCF}.Debug|x64.Build.0 = Debug|x64
+		{CC33DB03-389E-8F7A-81DC-4020ED856DCF}.Release|Any CPU.ActiveCfg = Release|x64
+		{CC33DB03-389E-8F7A-81DC-4020ED856DCF}.Release|Any CPU.Build.0 = Release|x64
+		{CC33DB03-389E-8F7A-81DC-4020ED856DCF}.Release|x64.ActiveCfg = Release|x64
+		{CC33DB03-389E-8F7A-81DC-4020ED856DCF}.Release|x64.Build.0 = Release|x64
+		{AFE04195-464C-B0E0-F435-4D8B91BCE66A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFE04195-464C-B0E0-F435-4D8B91BCE66A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFE04195-464C-B0E0-F435-4D8B91BCE66A}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{AFE04195-464C-B0E0-F435-4D8B91BCE66A}.Debug|x64.Build.0 = Debug|Any CPU
+		{AFE04195-464C-B0E0-F435-4D8B91BCE66A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFE04195-464C-B0E0-F435-4D8B91BCE66A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFE04195-464C-B0E0-F435-4D8B91BCE66A}.Release|x64.ActiveCfg = Release|Any CPU
+		{AFE04195-464C-B0E0-F435-4D8B91BCE66A}.Release|x64.Build.0 = Release|Any CPU
+		{52F2F233-B853-A8A8-768F-FE3455CE10CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52F2F233-B853-A8A8-768F-FE3455CE10CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52F2F233-B853-A8A8-768F-FE3455CE10CE}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{52F2F233-B853-A8A8-768F-FE3455CE10CE}.Debug|x64.Build.0 = Debug|Any CPU
+		{52F2F233-B853-A8A8-768F-FE3455CE10CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52F2F233-B853-A8A8-768F-FE3455CE10CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52F2F233-B853-A8A8-768F-FE3455CE10CE}.Release|x64.ActiveCfg = Release|Any CPU
+		{52F2F233-B853-A8A8-768F-FE3455CE10CE}.Release|x64.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D781D3E9-DC84-494E-B1E3-BDECC59C926C}
+	EndGlobalSection
+EndGlobal

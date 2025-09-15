@@ -1,6 +1,6 @@
 .config
 .vs
 .vscode
-monogame/*
+monogame/MonoGame*
 bin/
 obj/
