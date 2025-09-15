@@ -1,0 +1,6 @@
+.config
+.vs
+.vscode
+monogame/*
+bin/
+obj/
