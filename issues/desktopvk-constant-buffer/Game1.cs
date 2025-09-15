@@ -53,31 +53,15 @@ namespace Project1
 
             // Loop a shader
             var effect = Content.Load<Effect>("Effect");
-            /*
             effect.Parameters["Layer1Colors"].SetValue(new Matrix(
-                64, 0, 0, 0,
-                0, 64, 0, 0,
-                0, 0, 64, 0,
+                .5f, 0, 0, 0,
+                0, .5f, 0, 0,
+                0, 0, .5f, 0,
                 0, 0, 0, 0
             ));
-            effect.Parameters["Layer1Colors"].SetValue(new Matrix(
-                64, 0, 0, 0,
-                0, 64, 0, 0,
-                0, 0, 64, 0,
-                0, 0, 0, 0
-            ));
-            */
-            System.Diagnostics.Debug.WriteLine(effect.Parameters.Count);
-
-            var basicEffect = new BasicEffect(GraphicsDevice);
-
 
             _spriteBatch.Begin(effect: effect);
             _spriteBatch.Draw(_whiteTexture, new Rectangle(0, 0, 512, 512), Color.White);
-            _spriteBatch.End();
-
-            _spriteBatch.Begin();
-            _spriteBatch.Draw(_whiteTexture, new Rectangle(0, 0, 256, 256), Color.Red);
             _spriteBatch.End();
 
             // TODO: Add your drawing code here
